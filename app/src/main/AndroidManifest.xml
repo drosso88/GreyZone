@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        //esto lo cambio también para que desaparezca la barra del título y sea a pantalla completa
-        <activity android:name=".PantallaIncio" android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <activity android:name=".LoginIniciaSesion"></activity>
+        <activity
+            android:name=".PantallaIncio"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
             //cambio el manifest para que salga el splashscreen de pantalla de inicio
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,8 +20,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
-        </activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

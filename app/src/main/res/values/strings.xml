@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">GreyZone</string>
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="ingresar">Iniciar Sesión</string>
+    <string name="registrar">O registrar</string>
+    <string name="obtenerPassword">¿No recuerdas la contraseña? Click aquí</string>
 </resources>
