@@ -10,21 +10,22 @@
 
 
     <EditText
-        android:id="@+id/editTextPassword"
-        android:layout_width="165dp"
+        android:id="@+id/Password"
+        android:layout_width="310dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="4dp"
         android:layout_marginTop="220dp"
-        android:layout_marginEnd="245dp"
+        android:layout_marginEnd="97dp"
         android:layout_marginBottom="208dp"
-        android:inputType="textEmailAddress"
+        android:hint="Password"
+        android:inputType="textPassword|numberPassword"
         android:text="Password:" />
 
     <EditText
-        android:id="@+id/editTextNick"
+        android:id="@+id/Nick"
         android:layout_width="404dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -34,10 +35,10 @@
         android:layout_marginEnd="11dp"
         android:layout_marginBottom="266dp"
         android:inputType="textPersonName"
-        android:text="Nickname:" />
+        android:text="Usuario:" />
 
     <EditText
-        android:id="@+id/editTextDni"
+        android:id="@+id/Dni"
         android:layout_width="207dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -50,7 +51,7 @@
         android:text="DNI:" />
 
     <EditText
-        android:id="@+id/editTextTelefono"
+        android:id="@+id/Telefono"
         android:layout_width="165dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -60,7 +61,7 @@
         android:layout_marginTop="220dp"
         android:layout_marginEnd="242dp"
         android:layout_marginBottom="326dp"
-        android:inputType="textPersonName"
+        android:inputType="phone"
         android:text="Teléfono:" />
 
     <ImageView
@@ -79,10 +80,10 @@
         android:layout_marginEnd="37dp"
         android:layout_marginBottom="600dp"
         android:text="Registro"
-        android:textSize="50dp" />
+        android:textSize="50dp"/>
 
     <EditText
-        android:id="@+id/editTextNombre"
+        android:id="@+id/Nombre"
         android:layout_width="165dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -96,7 +97,7 @@
         android:text="Nombre:" />
 
     <EditText
-        android:id="@+id/editTextApellidos"
+        android:id="@+id/Apellidos"
         android:layout_width="207dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -109,7 +110,7 @@
         android:text="Apellidos:" />
 
     <EditText
-        android:id="@+id/editTextEmail"
+        android:id="@+id/Email"
         android:layout_width="404dp"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -121,5 +122,14 @@
         android:inputType="textEmailAddress|textEmailSubject"
         android:text="Email:" />
 
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="65dp"
+        android:id="@+id/Registro"
+        android:text="Guardar datos"/>
 
 </RelativeLayout>
