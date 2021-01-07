@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.os.Handler;
 
 public class PantallaIncio extends Activity {
-//esta clase va a ser un SplashScreen
+    //esta clase va a ser un SplashScreen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,10 +17,10 @@ public class PantallaIncio extends Activity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent intent= new Intent(PantallaIncio.this, MainActivity.class);
+                Intent intent = new Intent(PantallaIncio.this, MainActivity.class);
                 startActivity(intent);
 
             }
-        },4000); //estos son los milisegundos que quiero que dure
+        }, 4000); //estos son los milisegundos que quiero que dure
     }
 }

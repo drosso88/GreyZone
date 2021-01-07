@@ -16,8 +16,8 @@ public class MainActivity extends AppCompatActivity {
     EditText user, pass;
     Button login;
 
-//Esta clase se encarga del Inicio de sesión
-@Override
+    //Esta clase se encarga del Inicio de sesión
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         pass = findViewById(R.id.Password);
 
         login = findViewById(R.id.inicioSesion);
-        btnRegistrate=findViewById(R.id.Registro);
+        btnRegistrate = findViewById(R.id.Registro);
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -38,14 +38,13 @@ public class MainActivity extends AppCompatActivity {
                 password = pass.getText().toString();
 
                 //comparamos strings y avisamos si algo queda en blanco con un TOAST (mensaje emergente)
-                 if (user.equals("")) {
+                if (user.equals("")) {
                     Toast.makeText(MainActivity.this, "El Usuario está en blanco", Toast.LENGTH_LONG).show();
-                }
-                else if (pass.equals("")) {
+                } else if (pass.equals("")) {
                     Toast.makeText(MainActivity.this, "La contraseña está en blanco", Toast.LENGTH_LONG).show();
-                }else{
+                } else {
                     //nos autenticamos si todo va bien
-            }
+                }
 
             }
         });
@@ -54,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // lo ponemos para que vya al formulario de registro para ver si funciona de momento.
                 // Esto hay que cambiarlo luego
-                Intent i =new Intent(MainActivity.this,Registro.class);
+                Intent i = new Intent(MainActivity.this, Registro.class);
                 startActivity(i);
                 finish();
             }
@@ -63,12 +62,14 @@ public class MainActivity extends AppCompatActivity {
         btnRegistrate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i =new Intent(MainActivity.this,Registro.class);
+                Intent i = new Intent(MainActivity.this, Registro.class);
                 startActivity(i);
                 finish();
             }
         });
 
-    };
     }
+
+    ;
+}
 

@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         app:srcCompat="@drawable/logogreyzone"
-        android:layout_weight="50"/>
+        android:layout_weight="50" />
 
     <EditText
         android:id="@+id/editTextUser"
@@ -44,7 +44,7 @@
         android:layout_marginBottom="20dp"
         android:drawableLeft="@drawable/candado"
         android:padding="10dp"
-        android:background="@drawable/style1iconos"/>
+        android:background="@drawable/style1iconos" />
 
     <Button
         android:id="@+id/buttonIngresar"
@@ -56,18 +56,19 @@
         android:layout_marginLeft="25dp"
         android:layout_marginBottom="5dp"
         android:textColor="@color/blanco"
-        android:background="@color/colorPrimary"/>
+        android:background="@color/colorPrimary" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/registrar"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center" />
+
     <TextView
         android:id="@+id/textViewRecordarPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/obtenerPassword"
-        android:gravity="center"/>
+        android:gravity="center" />
 </LinearLayout>

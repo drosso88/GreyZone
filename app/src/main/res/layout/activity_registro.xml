@@ -21,8 +21,7 @@
         android:layout_marginEnd="97dp"
         android:layout_marginBottom="208dp"
         android:hint="Password"
-        android:inputType="textPassword|numberPassword"
-        android:text="Password:" />
+        android:inputType="textPassword|numberPassword" />
 
     <EditText
         android:id="@+id/Nick"
@@ -35,7 +34,7 @@
         android:layout_marginEnd="11dp"
         android:layout_marginBottom="266dp"
         android:inputType="textPersonName"
-        android:text="Usuario:" />
+        android:hint="Usuario:" />
 
     <EditText
         android:id="@+id/Dni"
@@ -48,7 +47,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="327dp"
         android:inputType="textPersonName"
-        android:text="DNI:" />
+        android:hint="DNI:" />
 
     <EditText
         android:id="@+id/Telefono"
@@ -62,7 +61,7 @@
         android:layout_marginEnd="242dp"
         android:layout_marginBottom="326dp"
         android:inputType="phone"
-        android:text="Teléfono:" />
+        android:hint="Teléfono:" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -80,7 +79,7 @@
         android:layout_marginEnd="37dp"
         android:layout_marginBottom="600dp"
         android:text="Registro"
-        android:textSize="50dp"/>
+        android:textSize="50dp" />
 
     <EditText
         android:id="@+id/Nombre"
@@ -92,9 +91,9 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="220dp"
         android:layout_marginEnd="241dp"
-        android:layout_marginBottom="439dp"
-        android:inputType="textPersonName"
-        android:text="Nombre:" />
+        android:layout_marginBottom="435dp"
+        android:hint="Nombre:"
+        android:inputType="textPersonName" />
 
     <EditText
         android:id="@+id/Apellidos"
@@ -103,11 +102,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="196dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginBottom="441dp"
+        android:layout_marginStart="197dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="439dp"
         android:inputType="textPersonName"
-        android:text="Apellidos:" />
+        android:hint="Apellidos:" />
 
     <EditText
         android:id="@+id/Email"
@@ -120,7 +119,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="384dp"
         android:inputType="textEmailAddress|textEmailSubject"
-        android:text="Email:" />
+        android:hint="Email:" />
 
     <Button
         android:layout_width="200dp"
@@ -130,6 +129,6 @@
         android:layout_marginEnd="104dp"
         android:layout_marginBottom="65dp"
         android:id="@+id/Registro"
-        android:text="Guardar datos"/>
+        android:text="Guardar datos" />
 
 </RelativeLayout>
